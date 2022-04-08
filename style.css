@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;600&display=swap");
+
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: 100%;
+  width: 100vw;
+  min-width: 100vw;
+  overflow-x: hidden;
+  background-color: #1c242d;
+  font-family: "Heebo", sans-serif;
+  position: relative;
+}
+header img {
+  vertical-align: middle;
+}
+
+header h1 {
+  font-style: italic;
+}
+
+.container-lg {
+  margin-top: 0px !important;
+  padding-bottom: 20px;
+}
+.btn {
+  width: 100px;
+  border: 5px outset rgba(28, 110, 164, 0.45);
+  border-radius: 33px 0px 33px 0px;
+}
+
+table {
+  width: 100%;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+table th {
+  font-size: 20px;
+}
+tr:nth-child(even) {
+  background-color: #1c242d61;
+}
+#table-display {
+  background-color: #d7e5f9;
+}
+.card-body {
+  padding-top: 0px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding: 0 5px 5px 5px;
+}
+
+footer {
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #151b22;
+  color: white;
+  margin-bottom: 0 !important;
+  line-height: 1.5 !important;
+}
+
+footer span {
+  font-size: 10px;
+}
